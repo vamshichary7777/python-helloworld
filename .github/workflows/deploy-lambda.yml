@@ -35,4 +35,4 @@ jobs:
 
       - name: Deploy Lambda Function
         run: |
-          aws lambda update-function-code --function-name=dev-InsurabilityIQ --zip-file=fileb://deploy.zip
+          aws lambda update-function-code --function-name=test-InsurabilityAPI --zip-file=fileb://deploy.zip
