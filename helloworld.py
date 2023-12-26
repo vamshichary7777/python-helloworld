@@ -1,9 +1,8 @@
-#!/usr/bin/env python
+import json
 
-"""Top-level script to invoke helloworld implementation."""
-
-import sys
-import helloworld.main
-
-if __name__ == '__main__':
-    sys.exit(helloworld.main.main())
+def lambda_handler(event, context):
+    # TODO implement
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Hello from Lambda!')
+    }
